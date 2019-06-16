@@ -9,4 +9,8 @@ fun main(args: Array<String>){
     alien.name = "Galiwango Fahad"
 
     println(message = "my name is ${alien.name}");
+
+    val alien2 = Alien();
+    alien2.name="Wanafadger"
+    println(message = "developer name is ${alien2.name}")
 }
